@@ -160,52 +160,30 @@
 
       <div class="space-y-8">
 
-        <!-- Updated embed shell + TWO TikTok embeds -->
-<div id="tiktok-embed-shell"
-     class="embed-shell rounded-xl overflow-hidden p-4"
-     style="min-height:420px;">
+      <!-- TikTok embeds container -->
+<div class="grid md:grid-cols-2 gap-6">
 
-  <div class="text-xs opacity-70 mb-4 text-center">
-    TikTok Embeds (load on scroll)
-  </div>
+  <!-- VIDEO 1 -->
+  <blockquote
+    class="tiktok-embed"
+    cite="https://www.tiktok.com/@iamrichardpalth/video/7543134188866768135"
+    data-video-id="7543134188866768135"
+    style="max-width:325px; min-width:280px;">
+  </blockquote>
 
-  <!-- Responsive grid for 2 videos -->
-  <div class="grid md:grid-cols-2 gap-4">
+  <!-- VIDEO 2 (pon aquí tu segundo video REAL) -->
+  <blockquote
+    class="tiktok-embed"
+    cite="https://www.tiktok.com/@iamrichardpalth/video/7501925358099287302"
+    data-video-id="501925358099287302"
+    style="max-width:325px; min-width:280px;">
+  </blockquote>
 
-    <!-- VIDEO 1 -->
-    <div class="flex flex-col items-center">
-      <blockquote class="tiktok-embed"
-        cite="https://www.tiktok.com/@iamrichardpalth/video/7543134188866768135?_r=1&_t=ZS-93R1VoXt4JJ"
-        style="max-width:325px; min-width:280px;">
-        <section></section>
-      </blockquote>
-
-      <a href="https://www.tiktok.com/@iamrichardpalth/video/7543134188866768135?_r=1&_t=ZS-93R1VoXt4JJ"
-         target="_blank"
-         class="text-xs underline mt-2 opacity-70"
-         style="color:var(--secondary);">
-         Open video →
-      </a>
-    </div>
-
-    <!-- VIDEO 2 -->
-    <div class="flex flex-col items-center">
-      <blockquote class="tiktok-embed"
-        cite="https://www.tiktok.com/@iamrichardpalth/video/7543134188866768135?_r=1&_t=ZS-93R1VoXt4JJ"
-        style="max-width:325px; min-width:280px;">
-        <section></section>
-      </blockquote>
-
-      <a href="https://www.tiktok.com/@iamrichardpalth/video/7543134188866768135?_r=1&_t=ZS-93R1VoXt4JJ"
-         target="_blank"
-         class="text-xs underline mt-2 opacity-70"
-         style="color:var(--secondary);">
-         Open video →
-      </a>
-    </div>
-
-  </div>
 </div>
+
+<!-- SOLO UNA VEZ EN TODA LA PÁGINA -->
+<script async src="https://www.tiktok.com/embed.js"></script>
+
 
         <!-- Project 2: LinkedIn (updated “embed” approach) -->
         <div class="project-card rounded-2xl p-8 fade-in-up stagger-2" style="background:var(--card);">
