@@ -115,7 +115,7 @@
             Creative Manager & Marketing Strategist
           </h2>
           <p class="mb-6 opacity-90" style="font-size:calc(var(--base) * 1.125);">
-            6+ years leading creative teams across automotive, tech & wellness
+            6+ years leading creative teams across automotive, tech, insurance & wellness
           </p>
 
           <ul class="space-y-3">
@@ -135,7 +135,7 @@
             </div>
             <div class="rounded-lg p-4 border border-opacity-20" style="background: color-mix(in srgb, var(--card) 85%, transparent); border-color: color-mix(in srgb, var(--secondary) 55%, transparent);">
               <div class="mb-1">🧠 Strategy</div>
-              <div class="opacity-70 text-xs">360° Campaigns, Funnel</div>
+              <div class="opacity-70 text-xs">360° Campaigns, Funnel,A/B testing</div>
             </div>
             <div class="rounded-lg p-4 border border-opacity-20" style="background: color-mix(in srgb, var(--card) 85%, transparent); border-color: color-mix(in srgb, var(--secondary) 55%, transparent);">
               <div class="mb-1">📊 Performance</div>
@@ -160,79 +160,52 @@
 
       <div class="space-y-8">
 
-        <!-- Project 1: TikTok Embed (updated) -->
-        <div class="project-card rounded-2xl p-8 fade-in-up stagger-1" style="background:var(--card);">
-          <div class="flex items-center gap-3 mb-6">
-            <span style="font-size:calc(var(--base) * 2);">🏎️</span>
-            <div>
-              <h3 class="font-bold" style="font-size:calc(var(--base) * 1.5);">Subaru México — TikTok Performance Launch</h3>
-              <p class="opacity-60 text-sm">Role: Lead Creative Strategist</p>
-            </div>
-          </div>
+        <!-- Updated embed shell + TWO TikTok embeds -->
+<div id="tiktok-embed-shell"
+     class="embed-shell rounded-xl overflow-hidden p-4"
+     style="min-height:420px;">
 
-          <div class="grid md:grid-cols-2 gap-8 mb-6">
-            <div>
-              <p class="mb-4 opacity-80">
-                <strong style="color:var(--primary);">Goal:</strong> Launch performance model line and increase brand awareness among younger audiences through social-first creative strategy.
-              </p>
-              <p class="mb-4 opacity-80">
-                <strong style="color:var(--primary);">Strategy:</strong> Led 360° creative direction for TikTok-first campaign. Directed video content, collaborated with influencers, and optimized creative assets based on real-time performance data.
-              </p>
-              <p class="mb-4 opacity-80">
-                <strong style="color:var(--primary);">Outcome:</strong> Generated +2M impressions and drove 60% YoY sales growth in performance models. Creative assets achieved 3x industry benchmark engagement rates.
-              </p>
+  <div class="text-xs opacity-70 mb-4 text-center">
+    TikTok Embeds (load on scroll)
+  </div>
 
-              <div class="flex flex-wrap gap-2">
-                <span class="px-3 py-1 rounded-full text-xs" style="background:color-mix(in srgb, var(--primary) 20%, transparent); color:var(--primary);">TikTok Creative</span>
-                <span class="px-3 py-1 rounded-full text-xs" style="background:color-mix(in srgb, var(--primary) 20%, transparent); color:var(--primary);">Video Direction</span>
-                <span class="px-3 py-1 rounded-full text-xs" style="background:color-mix(in srgb, var(--primary) 20%, transparent); color:var(--primary);">Brand Strategy</span>
-              </div>
+  <!-- Responsive grid for 2 videos -->
+  <div class="grid md:grid-cols-2 gap-4">
 
-              <!-- Fallback link (if embed blocked) -->
-              <p class="mt-4 text-sm opacity-70">
-                If the embed doesn’t load, open the TikTok directly:
-                <a class="underline" style="color:var(--secondary);"
-                   href="https://www.tiktok.com/@subarumex/video/7436053925067656454"
-                   target="_blank" rel="noopener noreferrer">View on TikTok →</a>
-              </p>
-            </div>
+    <!-- VIDEO 1 -->
+    <div class="flex flex-col items-center">
+      <blockquote class="tiktok-embed"
+        cite="https://vt.tiktok.com/ZSamsMVFN/"
+        style="max-width:325px; min-width:280px;">
+        <section></section>
+      </blockquote>
 
-            <div class="space-y-4">
-              <!-- Updated embed shell + lazy-load behavior -->
-              <div id="tiktok-embed-shell" class="embed-shell rounded-xl overflow-hidden flex items-center justify-center p-4"
-                   style="min-height:420px;">
-                <div style="max-width:325px; width:100%;">
-                  <div class="text-xs opacity-70 mb-3 text-center">TikTok Embed (loads on scroll)</div>
+      <a href="https://vt.tiktok.com/ZSamsMVFN/"
+         target="_blank"
+         class="text-xs underline mt-2 opacity-70"
+         style="color:var(--secondary);">
+         Open video →
+      </a>
+    </div>
 
-                  <!-- TikTok embed blockquote (kept, script loads lazily) -->
-                  <blockquote class="tiktok-embed"
-                    cite="https://www.tiktok.com/@subarumex/video/7436053925067656454"
-                    data-video-id="7436053925067656454"
-                    style="max-width: 605px; min-width: 325px;">
-                    <section>
-                      <a target="_blank" rel="noopener noreferrer" title="@subarumex" href="https://www.tiktok.com/@subarumex">@subarumex</a>
-                    </section>
-                  </blockquote>
-                </div>
-              </div>
+    <!-- VIDEO 2 -->
+    <div class="flex flex-col items-center">
+      <blockquote class="tiktok-embed"
+        cite="https://vt.tiktok.com/ZSampEpmg/"
+        style="max-width:325px; min-width:280px;">
+        <section></section>
+      </blockquote>
 
-              <div class="grid grid-cols-3 gap-3">
-                <div class="text-center p-4 rounded-lg" style="background:var(--bg);">
-                  <div class="font-bold mb-1" style="color:var(--primary); font-size:calc(var(--base) * 1.5);">+2M</div>
-                  <div class="opacity-70 text-xs">Impressions</div>
-                </div>
-                <div class="text-center p-4 rounded-lg" style="background:var(--bg);">
-                  <div class="font-bold mb-1" style="color:var(--primary); font-size:calc(var(--base) * 1.5);">60%</div>
-                  <div class="opacity-70 text-xs">Sales Growth</div>
-                </div>
-                <div class="text-center p-4 rounded-lg" style="background:var(--bg);">
-                  <div class="font-bold mb-1" style="color:var(--primary); font-size:calc(var(--base) * 1.5);">3x</div>
-                  <div class="opacity-70 text-xs">Engagement</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <a href="https://vt.tiktok.com/ZSampEpmg/"
+         target="_blank"
+         class="text-xs underline mt-2 opacity-70"
+         style="color:var(--secondary);">
+         Open video →
+      </a>
+    </div>
+
+  </div>
+</div>
 
         <!-- Project 2: LinkedIn (updated “embed” approach) -->
         <div class="project-card rounded-2xl p-8 fade-in-up stagger-2" style="background:var(--card);">
@@ -396,38 +369,6 @@
     </div>
   </section>
 
-  <!-- TESTIMONIALS -->
-  <section class="w-full px-6 py-16 md:py-20">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="font-bold mb-12 text-center fade-in-up" style="font-size:calc(var(--base) * 2);">💬 What Colleagues Say</h2>
-      <div class="grid md:grid-cols-2 gap-8">
-        <div class="rounded-xl p-8 border fade-in-up stagger-1" style="background:var(--card); border-color: color-mix(in srgb, var(--secondary) 20%, transparent);">
-          <div class="mb-4" style="color:var(--primary); font-size:calc(var(--base) * 1.5);">"</div>
-          <p class="mb-6 opacity-90 italic">Richard's creative vision combined with his data-driven approach transformed our campaigns. He consistently delivered creative that resonated emotionally while exceeding performance targets across all channels.</p>
-          <div class="flex items-center gap-3">
-            <div class="w-12 h-12 rounded-full flex items-center justify-center font-bold" style="background:color-mix(in srgb, var(--primary) 20%, transparent); color:var(--primary);">SM</div>
-            <div>
-              <div class="font-semibold text-sm">Sarah Martinez</div>
-              <div class="opacity-70 text-xs">VP Marketing, Subaru México</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="rounded-xl p-8 border fade-in-up stagger-2" style="background:var(--card); border-color: color-mix(in srgb, var(--secondary) 20%, transparent);">
-          <div class="mb-4" style="color:var(--secondary); font-size:calc(var(--base) * 1.5);">"</div>
-          <p class="mb-6 opacity-90 italic">As a creative leader, Richard excels at managing cross-functional teams and delivering complex multi-region campaigns. His strategic thinking and collaborative approach make him invaluable to any marketing organization.</p>
-          <div class="flex items-center gap-3">
-            <div class="w-12 h-12 rounded-full flex items-center justify-center font-bold" style="background:color-mix(in srgb, var(--secondary) 20%, transparent); color:var(--secondary);">JK</div>
-            <div>
-              <div class="font-semibold text-sm">James Kim</div>
-              <div class="opacity-70 text-xs">Director, Global Marketing, Elsevier</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- CTA -->
   <section class="w-full px-6 py-20 md:py-24">
     <div class="max-w-4xl mx-auto text-center fade-in-up">
@@ -437,23 +378,15 @@
 
       <div class="flex flex-wrap justify-center gap-4">
         <!-- UPDATE: pon aquí tu correo real -->
-        <a href="mailto:ricardo@tudominio.com"
+        <a href="mailto:richardpalth99@gmail.com"
            class="inline-block px-8 py-4 rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
            style="background:var(--primary); color:var(--bg); font-size:calc(var(--base) * 1.125);"
            aria-label="Contact me via email">
-          Contact Me
-        </a>
-
-        <!-- UPDATE: sube tu PDF al repo como /Richard-CV.pdf -->
-        <a href="./Richard-CV.pdf"
-           class="inline-block px-8 py-4 rounded-full font-semibold border-2 transition-all duration-300 hover:scale-105"
-           style="border-color:var(--secondary); color:var(--secondary); font-size:calc(var(--base) * 1.125);"
-           aria-label="Download resume PDF">
-          Download Resume
+          Send Me an Email and I'll Share my Resume With You
         </a>
 
         <!-- UPDATE: pon tu URL real de LinkedIn -->
-        <a href="https://www.linkedin.com/"
+        <a href="www.linkedin.com/in/ricardo-uscanga"
            target="_blank" rel="noopener noreferrer"
            class="inline-block px-8 py-4 rounded-full font-semibold border-2 transition-all duration-300 hover:scale-105"
            style="border-color:var(--secondary); color:var(--secondary); font-size:calc(var(--base) * 1.125);"
